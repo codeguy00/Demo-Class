@@ -20,7 +20,7 @@ class MyClass
               void setFun(bool f);
               bool getFun();
 
-}
+};
 
 #endif
 

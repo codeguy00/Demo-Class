@@ -16,17 +16,17 @@ int main()
      cout<<"var = "<<var<<endl;
      myvar.setNum(var);
 
-     cout<<"Please enter your Room Code"<<endl:
+     cout<<"Please enter your Room Code"<<endl;
      cin>>str;
 
      myvar.setRoom(str);
      
-     cout<<"Please enter True or False"
+     cout<<"Please enter True or False"<<endl;
      cin>>ans;
 
      myvar.setFun(ans);
 
-     cout<<"Room Info: "<<myvar.getNum()<<" : "<<myvar.geRoom()<<" : "<<myvar.getFun()<<endl;
+     cout<<"Room Info: "<<myvar.getNum()<<" : "<<myvar.getRoom()<<" : "<<myvar.getFun()<<endl;
 
 return 0;     
 }
