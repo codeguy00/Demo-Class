@@ -3,7 +3,14 @@
 #include <string.h>
 
 using namespace std;
+MyClass::MyClass(){}
 
+MyClass::MyClass(int n, string s)
+{
+	num = n;
+	room = s;
+}
+MyClass::~MyClass() {}
 void MyClass::setNum(int x)
 {
         num = x;
