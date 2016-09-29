@@ -2,6 +2,7 @@
 #include "MyClass.h"
 #include <iostream>
 #include <string.h>
+#include <vector>
 using namespace std;
 
 void print(string pre, MyClass m, string suff)
@@ -19,8 +20,16 @@ int main()
      MyClass m2 = {35, "LR10"};
      MyClass m3 = {16, "MSSr6"};
      MyClass m4 = {11, "LT1"};
+     int tempnum;
+     string tempstr;
+     bool tempbl;
 
+     vector<MyClass> M;
      
+     M.push_back(m1);
+     M.push_back(m2);
+     M.push_back(m3);
+     M.push_back(m4); 
      
 /*
      cout<<"var = "<<var<<endl;
@@ -38,6 +47,15 @@ int main()
 
      cout<<"Room Info: "<<myvar.getNum()<<" : "<<myvar.getRoom()<<" : "<<myvar.getFun()<<endl;
 */
+   for(int i = 0; i < 4; i++)
+   {
+	cout<<"Please enter int string and bool for MyCass "<<endl;
+	cin>>tempnum>>tempstr>>tempbl;
+
+	M[i].setNum(tempnum);
+	M[i].setRoom(tempstr);
+	M[i].setFun(tempbl);
+   }
 
 	print("m1 = ", m1, "\n");
         print("m2 = ", m2, "\n");
