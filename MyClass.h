@@ -19,6 +19,9 @@ class MyClass
               string getRoom();
               void setFun(bool f);
               bool getFun();
+              MyClass();
+              MyClass(int n, string s);
+              ~MyClass();
 
 };
 
