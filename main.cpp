@@ -11,6 +11,11 @@ int main()
      int var = 10;
      string str;
      bool ans;
+     MyClass m1;
+     MyClass m2{35, "LR10"};
+     MyClass m3{16};
+
+     
      
 
      cout<<"var = "<<var<<endl;
